@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+
+    background-color: #f1f1f1;
+    color: #000000;
+}
+#header{
+
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    overflow:hidden;/*to hide the content which is outside the header size*/
+}
+#logo{
+    width: 40px;
+    padding-left: 120px;
+    float: left;
+}
+#nav{
+     width: 65%;
+    float: right;
+}
+#nav ul {
+    list-style-type: none;/*how to give or remove numbers,bullets,etc*/
+    margin: 0px;
+    font-size:14px;
+    height: 70px;
+}
+#nav ul li{
+    line-height: 35px;
+    margin-top: -25px;
+    display: inline-block;
+}
+#nav ul li a{
+
+    text-decoration: none;
+    color:gray;
+    padding: 30px 20px;
+    float: left;
+
+}
+#nav ul li a:hover{
+
+
+    color: black;
+}
+.card
+{
+    width: 98%;
+    margin: 2%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px burlywood;
+    height: 350px;
+    overflow: hidden;
+}
+.img1
+{
+    width: 100%;
+    padding: 10px;
+
+}
+.img1 img{
+padding-right: 5px;
+border: solid 2px;
+    height: 300px;
+    width: 24%;
+    color: black;
+display: inline-block;
+
+}
+#footer
+{
+    height: 236px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+#footer ul
+{   margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+
+    display: inline-block;
+    list-style-type: none;
+
+}
+#footer ul li
+{
+  margin: 5px;
+    text-align: center;
+}
+#footer ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.copyright
+{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right,white,lightgrey);
+}
+
